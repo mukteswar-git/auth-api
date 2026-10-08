@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+
+# Generated Prisma client
+src/generated/prisma/
+
+# Local files
+cookies.txt
+
+# Local AI/editor tooling
+.agents/
+.claude/
+.windsurf/
